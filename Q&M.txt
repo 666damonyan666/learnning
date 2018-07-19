@@ -1,0 +1,5 @@
+1.问题描述：在建立远程仓库时，勾选 initialize this repository with a README,在执行$ git push -u origin master命令时，报错：failed to push some refs to http:github.com/666damonyan666/learnning.git
+解决方案：1.git pull --rebase origin master(合并内容)
+		2.$ git push -u origin master
+Done,try this and good luck!
+        
